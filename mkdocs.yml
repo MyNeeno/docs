@@ -1,0 +1,6 @@
+site_name: Neeno Documentation
+nav:
+  - Home: index.md
+  - About: about.md
+theme:
+  name: material
