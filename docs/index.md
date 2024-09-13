@@ -22,7 +22,7 @@ resources you need to get started.
 
     Focus on your ideas, and create a kick-ass application with our SDK.
 
-    [:octicons-arrow-right-24: Reference](#)
+    [:octicons-arrow-right-24: Reference](software.md)
 
 -   :material-book-open-outline:{ .lg .middle } __Tutorials__
 
