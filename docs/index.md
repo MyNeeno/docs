@@ -1,22 +1,48 @@
-# Official Neeno Documentation
+# NEENO Documentation
 
-Here you will find all the information you need to get started with your Neeno
-device if you are a keen developer ready to create the next big thing in the
-wearable technology world.
+Here you will find everything you need to start developing cool applications
+for Neeno devices.
 
-This page is still under construction. Please check back soon for updates.
+Whether you are a seasoned developer or just starting out, we have the
+resources you need to get started.
 
-## Hardware
+<div class="grid cards" markdown>
 
-A listing of compatible devices with a special focus on the different versions
-of the Neeno Armband will be posted here, so that you can easily plan your
-development.
+-   :material-memory: __Hardware__
 
-## Software Development Kit
+    ---
 
-The Neeno SDK is a collection of tools and libraries that allow you to develop
-applications that interact with Neeno devices. The first release will be
-announced and available for download here in the next days.
+    Get to know the details of your Neeno device and how to interact with it.
+
+    [:octicons-arrow-right-24: Getting started](hardware.md)
+
+-   :material-console:{ .lg .middle } __Software__
+
+    ---
+
+    Focus on your ideas, and create a kick-ass application with our SDK.
+
+    [:octicons-arrow-right-24: Reference](#)
+
+-   :material-book-open-outline:{ .lg .middle } __Tutorials__
+
+    ---
+
+    Discover our ecosystem and tools with extensive examples.
+
+    [Coming soon](#) :wink:
+
+-   :material-account-group:{ .lg .middle } __Community__
+
+    ---
+
+    We want to create an open community to grow and share ideas. Come along!
+
+    [Coming soon](#) :wink:
+
+</div>
+
+This page is constantly under construction. Please check regularly for updates.
 
 ## Contact Us
 
