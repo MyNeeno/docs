@@ -1,8 +1,21 @@
 site_name: NEENO Docs
 nav:
   - Home: index.md
+  - Hardware: hardware.md
+  - Software: software.md
   - About: about.md
 theme:
   name: material
+  locale: en
   logo: assets/Neeno-logo-light-gray.png
   favicon: assets/Neeno-logo-blue-50px.png
+  font:
+    text: Chivo light
+  palette:
+    primary: blue
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - md_in_html
