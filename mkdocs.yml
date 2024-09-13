@@ -1,6 +1,8 @@
-site_name: Neeno Documentation
+site_name: NEENO Docs
 nav:
   - Home: index.md
   - About: about.md
 theme:
   name: material
+  logo: assets/Neeno-logo-light-gray.png
+  favicon: assets/Neeno-logo-blue-50px.png
