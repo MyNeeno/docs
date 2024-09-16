@@ -19,16 +19,17 @@ find here.
 
 ## Comparison Table
 
-| Feature             | Neeno 1                  | Neeno 2                 |
-|---------------------|--------------------------|-------------------------|
-| Processor           | Nordic nRF52840          | Nordic nRF52840         |
-| Architecture        | ARM Cortex-M4            | ARM Cortex-M4           |
-| Clock Speed         | 64 MHz                   | 64 MHz                  |
-| SRAM                | 256 KB                   | 256 KB                  |
-| Flash               | 1 MB                     | 1 MB                    |
-| Connector           | Micro USB                | USB-C                   |
-| IMU Sensors         | 9-axis                   | 6-axis                  |
-| EMG Sensor          | Surface triode           | Surface triode          |
-| Battery             | 700 mAh                  | 250 mAh                 |
-| Board dimensions    | 45 x 22 x 22 mm          | 35 x 22 x 22 mm         |
-| Weight              | 44 g                     | 32 g                    |
+| Feature               | Neeno 1                  | Neeno 2                 |
+|-----------------------|--------------------------|-------------------------|
+| Processor             | Nordic nRF52840          | Nordic nRF52840         |
+| Architecture          | ARM Cortex-M4            | ARM Cortex-M4           |
+| Clock Speed           | 64 MHz                   | 64 MHz                  |
+| SRAM                  | 256 KB                   | 256 KB                  |
+| Flash                 | 1 MB                     | 2 MB                    |
+| Connector             | Micro USB                | USB-C                   |
+| IMU Sensors           | 9-axis                   | 6-axis                  |
+| EMG Sensor            | Surface triode           | Surface triode          |
+| Output Data Rate (Hz) | 40, 50, 100, 200, 400    | 40, 50, 100, 200, 400   |
+| Battery               | 700 mAh                  | 250 mAh                 |
+| Board dimensions      | 45 x 22 x 22 mm          | 38 x 22 x 18 mm         |
+| Weight                | 44 g                     | 25 g                    |
