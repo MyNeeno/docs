@@ -1,4 +1,5 @@
 site_name: NEENO Docs
+site_url: 'https://myneeno.com'
 nav:
   - Home: index.md
   - Hardware: hardware.md
@@ -13,9 +14,25 @@ theme:
     text: Chivo light
   palette:
     primary: blue
+  features:
+    - navigation.tabs
 markdown_extensions:
   - attr_list
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - md_in_html
+extra_css:
+  - extra.css
+extra:
+  social:
+    - icon: fontawesome/brands/x-twitter
+      link: https://x.com/myneeno
+    - icon: fontawesome/brands/github
+      link: https://github.com/MyNeeno
+    - icon: fontawesome/brands/linkedin-in
+      link: https://www.linkedin.com/company/neeno
+    - icon: fontawesome/solid/envelope
+      link: mailto:<contact@myneeno.com>
+    - icon: fontawesome/solid/globe
+      link: https://myneeno.com
