@@ -1,3 +1,5 @@
+
+
 # NEENO Documentation
 
 Here you will find everything you need to start developing cool applications
@@ -5,6 +7,8 @@ for Neeno devices.
 
 Whether you are a seasoned developer or just starting out, we have the
 resources you need to get started.
+
+If you are looking for a specific topic, you can use the search bar at the top
 
 <div class="grid cards" markdown>
 
@@ -46,7 +50,7 @@ This page is constantly under construction. Please check regularly for updates.
 
 ## Contact Us
 
-If you have any questions or need further assistance, please feel free to
+If you have any questions or need further assistance, feel free to write us to
 <contact@myneeno.com>
 
 ## Legal
@@ -54,3 +58,5 @@ If you have any questions or need further assistance, please feel free to
 - [Privacy Policy](privacy-policy.md)
 
 Copyright © 2024 Neeno. All rights reserved.
+
+<p style="text-align: center;">Go to <a href="https://myneeno.com">myneeno.com</a></p>
