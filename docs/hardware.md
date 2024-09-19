@@ -5,31 +5,77 @@ details of our hardware to the community.
 
 We want you to understand how our devices work and how to interact with them.
 
-## Neeno Devices
+## Description
+
+The Neeno Armband designed to capture and analyze hand motion in real-time. It
+is fitted with a powerful Nordic nRF52840 SoC and a set of sensors measuring
+muscle activity and motion.
+
+The armband is designed to be easy to use, lightweight and compact, making it
+ideal for use in a variety of applications, such as sports training, physical
+therapy, and human-computer interaction.
+
+It can be easily connected to a computer or smartphone via BLE, and is equipped
+with a USB-C connector for charging and data transfer, if required. Its
+built-in battery can provide several hours of continuous operation on a single
+charge.
+
+## Specs
+
+<div class="center-table" markdown>
+
+| Features              |                                       |
+|-----------------------|---------------------------------------|
+| Processor             | Nordic nRF52840                       |
+| Architecture          | ARM Cortex-M4                         |
+| Clock Speed           | 64 MHz                                |
+| Flash Memory          | 1 MB                                  |
+| Connector             | USB-C                                 |
+| Sensors               | Accelerometer, Gyroscope, surface EMG |
+| Output Data Rate (Hz) | 40, 50, 100, 200, 400                 |
+| Mean latency (ms)     | 28                                    |
+| Battery               | 250 mAh                               |
+| Board dimensions      | 45 x 22 x 18 mm                       |
+| Weight                | 25 g                                  |
+
+</div>
+
+## Improvements
 
 So far, there are two versions of the Neeno armband in the wild:
 
-- **Neeno 1**, released in 2023, is still in use by researchers, but
-its creation and development has been discontinued. However, you can still find
-documentation about it, in case you are one of the holders of such version.
+- **Neeno 1**, the very first released version back in 2023, but its
+  development has been discontinued.
 
 - **Neeno 2**, released in 2024, is the one we are currently focusing on, and
-it is the one that will be the subject of most of the documentation you will
-find here.
+  it is the subject of most of the documentation you will find here.
 
-## Comparison Table
+Neeno 2, the successor of the very first Neeno Armband, comes with siginificant
+improvements and new features:
 
-| Feature               | Neeno 1                  | Neeno 2                 |
-|-----------------------|--------------------------|-------------------------|
-| Processor             | Nordic nRF52840          | Nordic nRF52840         |
-| Architecture          | ARM Cortex-M4            | ARM Cortex-M4           |
-| Clock Speed           | 64 MHz                   | 64 MHz                  |
-| SRAM                  | 256 KB                   | 256 KB                  |
-| Flash                 | 1 MB                     | 2 MB                    |
-| Connector             | Micro USB                | USB-C                   |
-| IMU Sensors           | 9-axis                   | 6-axis                  |
-| EMG Sensor            | Surface triode           | Surface triode          |
-| Output Data Rate (Hz) | 40, 50, 100, 200, 400    | 40, 50, 100, 200, 400   |
-| Battery               | 700 mAh                  | 250 mAh                 |
-| Board dimensions      | 45 x 22 x 22 mm          | 38 x 22 x 18 mm         |
-| Weight                | 44 g                     | 25 g                    |
+- **USB-C Connector**: In contrast to the initial Micro USB, this connector is
+  more durable and easier to use.
+
+- **Improved Battery Life**: The Neeno 2 has a smaller battery, but it is more
+  efficiently handled, which results in a longer battery life.
+
+- **Smaller and Lighter**: a reduced print size and weight making it more
+  comfortable to wear, going from 44 to 25 g (without straps.)
+
+- **Improved Sensors**: Now with an upgraded 6-axis IMU sensor, which is more
+  reliable than the 9-axis sensor previously used.
+
+- **Improved Data Rate**: The Neeno 2 has an improved data rate, which allows
+  for faster and more accurate data collection.
+
+- **Reduced Latency**: A dramatically reduced latency makes it very responsive,
+  going from 100 ms to 28 ms. And we still aim to further reduce it.
+
+A wide range of software tools and libraries is constantly developed to make it
+easy to integrate into existing workflows, allowing users to customize and
+extend its functionality as desired.
+
+Head to the [Software](software.md) section
+to learn more about the software side of the Neeno Armband.
+
+<p style="text-align: center;">Go to <a href="https://myneeno.com">myneeno.com</a></p>
