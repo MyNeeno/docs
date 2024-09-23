@@ -1,3 +1,8 @@
+---
+hide:
+  - footer
+---
+
 <p style="text-align: right;">Go to <a href="https://myneeno.com">myneeno.com</a></p>
 
 ---

@@ -1,3 +1,8 @@
+---
+hide:
+  - footer
+---
+
 # NEENO Documentation
 
 Your hand is a sensor. From now on you have to see it this way.
