@@ -1,3 +1,7 @@
+<p style="text-align: right;">Go to <a href="https://myneeno.com">myneeno.com</a></p>
+
+---
+
 # About Neeno
 
 At Neeno we specialize in developing wearable technology for HMI applications.
