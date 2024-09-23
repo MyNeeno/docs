@@ -1,19 +1,13 @@
+<p style="text-align: right;">Go to <a href="https://myneeno.com">myneeno.com</a></p>
+
+---
+
 # Hardware
-
-Embodying the philosophy of openess and freedom, we intend to expose all the
-details of our hardware to the community.
-
-We want you to understand how our devices work and how to interact with them.
 
 ## Description
 
-The Neeno Armband designed to capture and analyze hand motion in real-time. It
-is fitted with a powerful Nordic nRF52840 SoC and a set of sensors measuring
-muscle activity and motion.
-
-The armband is designed to be easy to use, lightweight and compact, making it
-ideal for use in a variety of applications, such as sports training, physical
-therapy, and human-computer interaction.
+The Neeno Armband is fitted with a powerful Nordic nRF52840 SoC and a set of
+sensors measuring muscle activity and motion.
 
 It can be easily connected to a computer or smartphone via BLE, and is equipped
 with a USB-C connector for charging and data transfer, if required. Its
@@ -77,5 +71,3 @@ extend its functionality as desired.
 
 Head to the [Software](software.md) section
 to learn more about the software side of the Neeno Armband.
-
-<p style="text-align: center;">Go to <a href="https://myneeno.com">myneeno.com</a></p>
