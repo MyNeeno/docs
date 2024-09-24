@@ -38,6 +38,22 @@ Team at <contact@myneeno.com>.
 You should receive a response within 24 hours. If for some reason you do not,
 please follow up via email to ensure we received your original message.
 
-## Quick Start
+## Fire it up!
 
-Go to the introduction of Software at [Getting Started](Software/introduction.md).
+Once you power up your armband it will immediately look for a connection with
+your central device using BLE.
+
+Our first SDK flavor is Python. If you have the provided credentials a very
+basic implementation looks like this:
+
+```python
+import neeno
+neeno.connect("credentials.json")
+```
+
+Done! You are now connected to your Neeno device via BLE, and can start
+interacting with it, or use the streaming data as you please.
+
+How come? Well, in the following pages you will find out.
+
+Ready to start? Take your [first steps](Software/introduction.md).
