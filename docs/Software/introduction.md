@@ -12,7 +12,7 @@ developing your applications right away.
 
 We use Python as the first programming language for the SDK.
 
-Yo qill need Python 3.9 or newer installed on your system to use the latest
+You need Python 3.9 or newer installed on your system to use the latest
 versions.
 
 The latest stable release can be installed using pip:
