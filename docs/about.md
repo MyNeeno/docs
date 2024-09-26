@@ -1,5 +1,6 @@
-<p style="text-align: right;">Go to <a href="https://myneeno.com">myneeno.com</a></p>
-
+---
+hide:
+  - footer
 ---
 
 # About Neeno
@@ -34,3 +35,7 @@ easy to use and integrate in all digital ecosystems.
 
 If you have any questions or need further assistance, please feel free to
 wirte us at <contact@myneeno.com>
+
+---
+
+<p style="text-align: center;">Go to <a href="https://myneeno.com">myneeno.com</a></p>

@@ -3,10 +3,6 @@ hide:
   - footer
 ---
 
-<p style="text-align: right;">Go to <a href="https://myneeno.com">myneeno.com</a></p>
-
----
-
 # Neeno SDK
 
 Welcome to the Neeno SDK! It is designed to help you interact with your Neeno
@@ -59,3 +55,7 @@ interacting with it in Python, and use the streamed data as you please.
 How come? Well, in the following pages you will find out.
 
 Ready to start? Take your [first steps](Software/introduction.md).
+
+---
+
+<p style="text-align: center;">Go to <a href="https://myneeno.com">myneeno.com</a></p>

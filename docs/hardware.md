@@ -3,10 +3,6 @@ hide:
   - footer
 ---
 
-<p style="text-align: right;">Go to <a href="https://myneeno.com">myneeno.com</a></p>
-
----
-
 # Hardware
 
 ## Description
@@ -76,3 +72,7 @@ extend its functionality as desired.
 
 Head to the [Software](software.md) section
 to learn more about the software side of the Neeno Armband.
+
+---
+
+<p style="text-align: center;">Go to <a href="https://myneeno.com">myneeno.com</a></p>
