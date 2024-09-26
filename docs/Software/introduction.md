@@ -2,18 +2,12 @@
 
 ## Introduction
 
-Neeno provides open SDKs for developers to integrate their Neeno devices into
-their ecosystems and easily exchange data within their platforms.
+We use first Python for the SDK. More languages will follow in the near future.
 
-The software tools will help you to interact with your Neeno device and start
-developing your applications right away.
+For now, you need Python 3.9 or newer installed on your system to use the
+latest versions.
 
 ## Installation
-
-We use Python as the first programming language for the SDK.
-
-You need Python 3.9 or newer installed on your system to use the latest
-versions.
 
 The latest stable release can be installed using pip:
 
