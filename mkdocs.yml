@@ -6,6 +6,7 @@ nav:
   - Software:
     - Overview: software.md
     - Intro: Software/introduction.md
+    - Connection: Software/connection.md
   - About: about.md
 theme:
   name: material
