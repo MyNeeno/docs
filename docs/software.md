@@ -43,8 +43,10 @@ please follow up via email to ensure we received your original message.
 Once you power up your armband it will immediately look for a connection with
 your central device using BLE.
 
-Our first SDK flavor is Python. If you have the provided credentials a very
-basic implementation looks like this:
+In the [next page](Software/introduction.md) we show you how to get our Python SDK.
+
+If you have the provided credentials a very basic implementation looks like
+this:
 
 ```python
 import neeno
@@ -52,7 +54,7 @@ neeno.connect("credentials.json")
 ```
 
 Done! You are now connected to your Neeno device via BLE, and can start
-interacting with it, or use the streaming data as you please.
+interacting with it in Python, and use the streamed data as you please.
 
 How come? Well, in the following pages you will find out.
 

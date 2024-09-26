@@ -50,6 +50,12 @@ Connected to '11:22:33:44:55:66'
 {'format': 'Lffffffff', 'packet_size': 36, 'rate': 200, 'items': ['timestamp', 'qw', 'qx', 'qy', 'qz', 'px', 'py', 'pz', 'fist']}
 >>> armband.time_since_connection()
 4.201987
+>>> armband.log_data("data.csv", num_samples=1000)
+'Logged 1000 samples to data.csv and it took 10.0 seconds.'
+>>> armband.get_battery_level()
+100
+>>> armband.disconnect()
+Disconnected from '11:22:33:44:55:66'
 ```
 
 ### Python Script
@@ -59,7 +65,21 @@ code.
 
 ```python
 import neeno
-neeno.connect("credentials.json")
+armband = neeno.connect("credentials.json")
+print(f"Device: {armband.get_name()}")
+armband.log_data("data.csv", num_samples=1000)
+armband.disconnect()
+```
+
+Calling this script will connect to the device, print its name, save 1000
+samples to a CSV file, and disconnect from the device.
+
+```bash
+$ python script.py
+Connected to '11:22:33:44:55:66'
+Device: Neeno Armband
+Logged 1000 samples to data.csv and it took 10.0 seconds.
+Disconnected from '11:22:33:44:55:66'
 ```
 
 ### Command Line
@@ -84,7 +104,7 @@ options:
   -h, --help            Show this message and exit.
   --devices             List of compatible devices.
   -u, --upload FILE     Upload the Firmware at FILE to the device.
-    -c, --connect FILE  Connect to the device with the credentials in FILE.
+  -c, --connect FILE    Connect to the device with the credentials in FILE.
   --compile             Compiles Firmware.
   --config              Neeno configuration commands.
   --monitor PORT        Open a communication with a board in PORT.

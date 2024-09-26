@@ -7,10 +7,15 @@ hide:
 
 Your hand is a sensor. From now on you have to see it this way.
 
-It is the simplest and most natural tool to interact with the world around you,
-and our armband will take it to the digital world.
+Once connected to your computer, your hand tells you:
+
+- The orientation and position of your hand relatively to your body.
+- The muscle activity of your forearm.
 
 Our question is: What can YOU do with it?
+
+Do you want to control a robot? Play a game? Create music? Draw in 3D? Aid your
+rehabilitation? Get insights on your workout? The possibilities are endless.
 
 Here you will find every tool you need to start developing cool applications
 with Neeno devices. Whether you are a seasoned developer or just starting out,
